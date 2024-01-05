@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/bg_stars.gif');
+    justify-content: center;
+}
+
+.nav-link, h2 {
+font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.navbar-expand-lg {
+    background-color: transparent!important;
+   
+}
+.nav-item{
+    color:white;
+}
+@media (min-width: 768px) {
+section{
+    margin: 0px 15em;
+}
+}
+.nav-link:first-of-type{
+    color:aqua;
+    text-decoration: underline;
+}
+.container-fluid {
+    max-width: 700px;
+}
+
+.shows{
+    color: green;
+    margin: 100px;
+    background-color:rgba(255,255,255,.5)
+    
+}
+h2{
+    margin-top: 40px;
+    text-align: center;
+    color: orange;
+    text-decoration: underline;
+}
+.video{
+    padding: 5em;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.albums {
+    max-width: 800px;
+    padding: 2em;
+    text-align: center;
+
+}
+.btn {
+    margin-top: 40px;
+    padding: 20px 40px;
+    border-radius: 0px;
+}
